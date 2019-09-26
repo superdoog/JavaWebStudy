@@ -12,22 +12,22 @@
         <servlet-name>Servlet1</servlet-name>
         <url-pattern>/servlet1</url-pattern>
     </servlet-mapping>
-    
+
+    <context-param>
+        <param-name>user</param-name>
+        <param-value>admin</param-value>
+    </context-param>
+    <context-param>
+        <param-name>password</param-name>
+        <param-value>123456</param-value>
+    </context-param>
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
         <servlet-class>cn.lv.test01.LoginServlet</servlet-class>
-        <init-param>
-            <param-name>user</param-name>
-            <param-value>admin</param-value>
-        </init-param>
-        <init-param>
-            <param-name>password</param-name>
-            <param-value>123456</param-value>
-        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/login/loginServlet</url-pattern>
+        <url-pattern>/loginServlet</url-pattern>
     </servlet-mapping>
 
 </web-app>

@@ -1,41 +1,43 @@
 package cn.lv.test01;
 
-import javax.servlet.*;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-public class LoginServlet implements Servlet {
-	private String name;
-	private String psd;
+public class LoginServlet extends HttpServlet {
+
+	private static final long serialVersionUID = 1L;
+
 	@Override
-	public void init(ServletConfig servletConfig) throws ServletException {
-		name = servletConfig.getInitParameter("user");
-		psd = servletConfig.getInitParameter("password");
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+//		String user = hreq.getParameter("username");
+//		String psd = hreq.getParameter("password");
+//
+//		if (user.equals(getServletConfig().getServletContext().getInitParameter("user"))
+//				&& psd.equals(getServletConfig().getServletContext().getInitParameter("password"))){
+//			hresp.getWriter().println("LOGIN SUCCESS");
+//		}else {
+//			hresp.getWriter().println("LOGIN FAILED");
+//		}
+
+		//pageContext,在servlet里不可用
+
+		//request
+		response.getWriter().println(request.getAttribute("request"));
+
+		//session
+		response.getWriter().println(request.getSession().getAttribute("session"));
+
+		//application
+		response.getWriter().println(getServletContext().getAttribute("application"));
+
 	}
 
 	@Override
-	public ServletConfig getServletConfig() {
-		return null;
-	}
-
-	@Override
-	public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-		String loginName = servletRequest.getParameter("username");
-		String loginPassword = servletRequest.getParameter("password");
-
-		if (loginName.equals(name)&loginPassword.equals(psd)){
-			servletResponse.getWriter().println("LOGIN SUCCESS");
-		}else {
-			servletResponse.getWriter().println("LOGIN FIELD");
-		}
-	}
-
-	@Override
-	public String getServletInfo() {
-		return null;
-	}
-
-	@Override
-	public void destroy() {
-
+	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		super.doPost(req, resp);
 	}
 }
