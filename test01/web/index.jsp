@@ -5,7 +5,7 @@
   Time: 20:42
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" errorPage="error.jsp" isErrorPage="false" %>
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -47,6 +47,8 @@
   <%= request.getAttribute("request")%><br>
   <%= session.getAttribute("session")%><br>
   <%= application.getAttribute("application")%><br>
+  <br>
+  <a href="/test01_war_exploded/servlet01">跳转到Servlet01</a>
 </body>
 </html>
 

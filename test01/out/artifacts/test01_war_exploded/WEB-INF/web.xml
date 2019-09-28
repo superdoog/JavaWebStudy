@@ -30,4 +30,13 @@
         <url-pattern>/loginServlet</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>Servlet01</servlet-name>
+        <servlet-class>cn.lv.test01.Servlet01</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet01</servlet-name>
+        <url-pattern>/servlet01</url-pattern>
+    </servlet-mapping>
+
 </web-app>
