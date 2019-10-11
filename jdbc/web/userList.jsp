@@ -15,6 +15,7 @@
   </head>
   <body>
     查询用户信息的页面：
+    <br>
     <%
       String userid = request.getParameter("userid");
       Connection conn = null;

@@ -1,6 +1,7 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="cn.lv.jdbc.DBUtils" %>
 <%@ page import="java.sql.Statement" %>
+<%@ page import="java.util.Date" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -9,21 +10,21 @@
 <body>
 
     <%
-        //获取数据库连接
-        Connection conn = DBUtils.getConnection();
-        //准备插入语句
+        //获取表单提交过来的数据
+        request.setCharacterEncoding("UTF-8");//解决中文乱码问题
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
+        String phoneNo = request.getParameter("phoneNo");
+        String address = request.getParameter("address");
+
         String sql = "INSERT INTO users(username,password,phone_no,address,reg_date)"+
-                "VALUES('xiaobai', '123456','12345678901','zhuhai','2019-1-1');";
-        //获取sql到Statement对象
-        Statement statement = conn.createStatement();
-        int count = statement.executeUpdate(sql);//执行sql，返回结果，返回影响到到数据记录条数
-        //关闭Statement
-        statement.close();
-        //关闭数据连接
-        conn.close();
+                "VALUES('"+username+"', '"+password+"','"+phoneNo+"','"+address+"','"+
+                new java.sql.Date(new java.util.Date().getTime())+"');";
+
+        int count = DBUtils.IUD(sql);
 
         if (count > 0){
-            System.out.println("插入成功");
+            out.println("插入成功");
         }
     %>
 
