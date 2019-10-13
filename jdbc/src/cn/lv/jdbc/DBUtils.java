@@ -2,10 +2,7 @@ package cn.lv.jdbc;
 
 import com.mysql.jdbc.Connection;
 import java.io.InputStream;
-import java.sql.DriverManager;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.*;
 
 public class DBUtils {
@@ -47,20 +44,26 @@ public class DBUtils {
 	 * @param sql
 	 * @return
 	 */
-	public static int IUD(String sql){
+	public static int IUD(String sql,Object... args){//Object... args 不确定个数不确定类型的参数列表
 
 		Connection conn = null;
-		Statement statement = null;
+//		Statement statement = null;
+		PreparedStatement ps = null;
 		int count = 0;
 		try {
 			conn = DBUtils.getConnection();
-			statement = conn.createStatement();
-			count = statement.executeUpdate(sql);//执行sql，返回结果，返回影响到到数据记录条数
+			ps = conn.prepareStatement(sql);
+
+			for (int i=0;i<args.length;i++){
+				ps.setObject(i+1,args[i]);
+			}
+
+			count = ps.executeUpdate();//执行sql，返回结果，返回影响到到数据记录条数
 
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			close(conn,statement,null);
+			close(conn,ps,null);
 		}
 
 		return count;

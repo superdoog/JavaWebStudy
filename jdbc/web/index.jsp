@@ -14,7 +14,7 @@
 
   <%=conn%>
 
-  <form action="updateUser.jsp" method="get" style="margin: 0 auto; width: 500px;padding: 20px; border: 1px #cccccc solid;text-align: center;">
+  <form action="insertUser.jsp" method="get" style="margin: 0 auto; width: 500px;padding: 20px; border: 1px #cccccc solid;text-align: center;">
     用户名:<input type="text" name="username">
     <br>
     <br>
@@ -35,7 +35,7 @@
     <br>
     <br>
     <br>
-    <form action="userList.jsp" method="post" style="margin: 0 auto; width: 500px;padding: 20px; border: 1px #cccccc solid;text-align: center;">
+    <form action="getOneUser.jsp" method="post" style="margin: 0 auto; width: 500px;padding: 20px; border: 1px #cccccc solid;text-align: center;">
       用户编号:<input type="text" name="userid">
       <br>
       <br>
