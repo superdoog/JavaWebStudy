@@ -3,6 +3,7 @@ package cn.lv.jdbc;
 import cn.lv.model.User;
 import com.mysql.jdbc.Connection;
 import java.io.InputStream;
+import java.lang.reflect.Field;
 import java.sql.*;
 import java.util.*;
 
@@ -162,6 +163,26 @@ public class DBUtils {
 			}
 			rs = ps.executeQuery();
 			//取出rs中的值
+			if (rs.next()){
+				entity = (T)clazz.getDeclaredConstructor().newInstance();//通过反射获取到对象
+				ResultSetMetaData rsmd = rs.getMetaData();
+				int columnCount = rsmd.getColumnCount();
+				Map<String, Object> map = new HashMap<>();
+
+				//把结果集中的值取出来放入map
+				for (int i=1;i<=columnCount;i++){
+					String key = rsmd.getColumnLabel(i);
+					Object val = rs.getObject(key);
+
+					map.put(key, val);
+				}
+				//把取出的值封装到entity
+				for (Map.Entry<String, Object> entry:map.entrySet()){
+					Field field = clazz.getDeclaredField(entry.getKey());//字段名
+					field.setAccessible(true);//忽略类型private修饰符
+					field.set(entity, entry.getValue());//字段对应的数值
+				}
+			}
 
 
 		}catch (Exception e){

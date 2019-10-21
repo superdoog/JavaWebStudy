@@ -7,21 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a19c83f-225c-4856-94d4-ce51b34badc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MyWebProject/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Tomcat_8_5_46.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MyWebProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/runConfigurations/Tomcat_8_5_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/runConfigurations/deleteUser_jsp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/getOneUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/getOneUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/ReflectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/ReflectionTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc/web/getOneUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/web/getOneUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/test01_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/test01_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -101,36 +92,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/lv/test01/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/test01/MyHttpServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="46" lean-forward="true" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/test01/MyGenericServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#555#556#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -292,15 +260,15 @@
       <workItem from="1569654243716" duration="4234000" />
       <workItem from="1570631328011" duration="49000" />
       <workItem from="1570631411739" duration="27000" />
-      <workItem from="1571275214112" duration="4509000" />
+      <workItem from="1571275214112" duration="5016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20476000" />
+    <option name="totallyTimeSpent" value="20983000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="877" extended-state="0" />
+    <frame x="0" y="23" width="720" height="877" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.22123894" />
@@ -438,20 +406,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/test01/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="69" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lv/test01/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

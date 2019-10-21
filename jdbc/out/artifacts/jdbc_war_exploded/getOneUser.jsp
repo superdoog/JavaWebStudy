@@ -20,9 +20,10 @@
         String userid = request.getParameter("userid");
 ;
             //写sql语句
-            String sql = "select id,username,`password`,phone_no,address,reg_date from users where id=?";
+            String sql = "select id id,username userName,password password from users where id=?";
             //调用方法
-            User user = DBUtils.getOneUser(sql, userid);
+            //User user = DBUtils.getOneUser(sql, userid);
+            User user = DBUtils.getOneData(User.class, sql, userid);
             if (user != null){
             	out.println(user);
             }else {
