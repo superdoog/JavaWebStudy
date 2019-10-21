@@ -1,5 +1,6 @@
 package cn.lv.jdbc;
 
+import cn.lv.model.User;
 import com.mysql.jdbc.Connection;
 import java.io.InputStream;
 import java.sql.*;
@@ -12,7 +13,7 @@ public class DBUtils {
 	 * @throws Exception
 	 */
 	public static Connection getConnection() throws Exception {
-		Properties prop = new Properties();//创建Propertie类的对象，获取jdbc.properties
+		Properties prop = new Properties();//创建Properties类的对象，获取jdbc.properties
 		//取到配置文件的内容
 		InputStream in = DBUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
 		prop.load(in);//把拿到的配置文件的内容，放到Properties类的对象prop
@@ -95,5 +96,80 @@ public class DBUtils {
 				e.printStackTrace();
 			}
 		}
+	}
+
+	/**
+	 * 查询一条信息
+	 * @param sql
+	 * @param args
+	 * @return
+	 */
+	public static User getOneUser(String sql,Object... args){
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		User user = null;
+
+		try {
+			//连接数据库
+			conn = DBUtils.getConnection();
+			//写sql语句
+			//String sql = "select id,username,`password`,phone_no,address,reg_date from users where id="+userid;
+			//执行sql,获取statement对象
+			ps = conn.prepareStatement(sql);
+			for (int i=0;i<args.length;i++){
+				ps.setObject(i+1, args[i]);
+			}
+			rs = ps.executeQuery();
+			//从rs中拿出数据库取出的具体值
+			if (rs.next()){
+				user = new User();
+				user.setId(rs.getInt("id"));
+				user.setUserName(rs.getString("username"));
+				user.setPassword(rs.getString("password"));
+				user.setPassword(rs.getString("phone_no"));
+				user.setAddress(rs.getString("address"));
+				user.setRegDate(rs.getDate("reg_date"));
+			}
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally {
+			DBUtils.close(conn, ps, rs);
+		}
+		return user;
+	}
+
+	/**
+	 * 查询一条数据的通用方法
+	 * @param clazz
+	 * @param <T>
+	 * @return
+	 */
+	public static <T> T getOneData(Class clazz, String sql, Object... args){
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		T entity = null;
+
+		try {
+			//连接数据库
+			conn = DBUtils.getConnection();
+			//获取PreparedStatement
+			ps = conn.prepareStatement(sql);
+			//替换ps中的?占位符
+			for (int i=0;i<args.length;i++){
+				ps.setObject(i+1 ,args[i]);
+			}
+			rs = ps.executeQuery();
+			//取出rs中的值
+
+
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally {
+			DBUtils.close(conn, ps, rs);
+		}
+
+		return entity;
 	}
 }
