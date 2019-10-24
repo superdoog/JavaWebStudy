@@ -1,7 +1,9 @@
 <%@ page import="cn.lv.dao.BaseDao" %>
 <%@ page import="cn.lv.model.User" %>
 <%@ page import="java.util.List" %>
-<%@ page import="java.util.Arrays" %><%--
+<%@ page import="java.util.Arrays" %>
+<%@ page import="java.sql.Connection" %>
+<%@ page import="cn.lv.jdbc.DBUtils" %><%--
   Created by IntelliJ IDEA.
   User: lvsihao
   Date: 2019-10-22
@@ -32,10 +34,23 @@
 //        String sql = "select id id,`username` userName,`password` password,`phone_no` phoneNo,`address` address,`reg_date` regDate from users";
 //        List<User> list = baseDao.getListData(User.class, sql);
 //        out.println(Arrays.toString(list.toArray()));
+//
+//        String sql = "select count(*) from users";
+//        Long count = (Long)baseDao.getOneColumn(sql);
+//        out.println(count);
 
-        String sql = "select count(*) from users";
-        Long count = (Long)baseDao.getOneColumn(sql);
-        out.println(count);
+//        String sql = "insert into users(`username`, `password`, `phone_no`, `address`, `reg_date`)values('aabbcc','11111111','22222222','uk','2019-10-1')";
+//        int id = baseDao.insertReturnId(sql);
+//        out.print(id);
+
+        Connection conn = DBUtils.getConnection();
+        conn.setAutoCommit(false);//开启事务处理
+        out.println(conn.getTransactionIsolation());
+        String sql = "update `users` set `username`=? where id=?";
+        baseDao.iud(conn, sql, "zhang", 2);
+        out.println("事物提交，暂停");
+        conn.commit();//事物提交
+
 
     %>
 </body>

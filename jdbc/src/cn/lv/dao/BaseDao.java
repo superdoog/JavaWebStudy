@@ -1,14 +1,11 @@
 package cn.lv.dao;
 
 import cn.lv.jdbc.DBUtils;
-import com.mysql.jdbc.Connection;
+
 import org.apache.commons.beanutils.BeanUtils;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -66,6 +63,59 @@ public class BaseDao {
 			DBUtils.close(conn,ps,null);
 		}
 		return count;
+	}
+
+	/**
+	 * 目前可当成支持事务处理增删改通用方法
+	 * @param conn
+	 * @param sql
+	 * @param args
+	 * @return
+	 */
+	public  int iud(Connection conn, String sql, Object... args){
+		PreparedStatement ps = null;
+		int count = 0;
+		try {
+			ps = conn.prepareStatement(sql);
+			insteadHolder(ps, args);
+			count = ps.executeUpdate();//执行sql，返回结果，返回影响到到数据记录条数
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally {
+			DBUtils.close(null,ps,null);
+		}
+		return count;
+	}
+
+	/**
+	 * 新增记录，返回新增记录的id值
+	 * @param sql
+	 * @param args
+	 * @return
+	 */
+	public int insertReturnId(String sql,Object... args){
+
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		int id = 0;
+		try {
+			conn = DBUtils.getConnection();
+			ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
+			//替换ps中的?占位符
+			insteadHolder(ps, args);
+			ps.executeUpdate();//执行sql，返回结果，返回影响到到数据记录条数
+			rs = ps.getGeneratedKeys();
+			if (rs.next()){
+				id = rs.getInt(1);
+			}
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally {
+			DBUtils.close(conn,ps,null);
+		}
+
+		return id;
 	}
 
 	//获取满足查询条件的一条记录的对象
@@ -146,6 +196,35 @@ public class BaseDao {
 			rs = ps.executeQuery();
 			if (rs.next()){
 				return rs.getObject(1);
+			}
+		}catch (Exception e){
+			e.printStackTrace();
+		}finally {
+			DBUtils.close(conn, ps, rs);
+		}
+		return null;
+	}
+
+	/**
+	 * 取blob类型数据的方法
+	 * @param sql
+	 * @param args
+	 * @return
+	 */
+	public Blob getOneColumnBlob(String sql, Object... args){
+		Connection conn = null;
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		try {
+			//连接数据库
+			conn = DBUtils.getConnection();
+			//获取PreparedStatement
+			ps = conn.prepareStatement(sql);
+			//替换ps中的?占位符
+			insteadHolder(ps, args);
+			rs = ps.executeQuery();
+			if (rs.next()){
+				return rs.getBlob(1);
 			}
 		}catch (Exception e){
 			e.printStackTrace();
