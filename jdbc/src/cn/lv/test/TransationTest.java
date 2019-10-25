@@ -8,7 +8,8 @@ import java.sql.Connection;
 public class TransationTest {
 	public static void main(String[] args) throws Exception {
 		BaseDao baseDao = new BaseDao();
-		Connection conn = DBUtils.getConnection();//同一个connection才能事务处理
+		// 同一个connection才能事务处理
+		Connection conn = DBUtils.getConnection();
 		 	try {
 
 			//开始事物
