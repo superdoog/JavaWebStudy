@@ -1,5 +1,5 @@
 <%@ page import="java.sql.Connection" %>
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.Statement" %><%--
   Created by IntelliJ IDEA.
   User: lvsihao
@@ -18,7 +18,7 @@
 
         String sql = "delete from users where id=9;";
 
-       int count = DBUtils.IUD(sql);
+       int count = MyDBUtils.IUD(sql);
 
         if (count > 0){
             out.println("删除成功");

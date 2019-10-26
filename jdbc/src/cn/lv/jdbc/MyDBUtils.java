@@ -9,7 +9,7 @@ import java.lang.reflect.Field;
 import java.sql.*;
 import java.util.*;
 
-public class DBUtils {
+public class MyDBUtils {
 
 	//与事务处理有关的方法
 
@@ -24,7 +24,6 @@ public class DBUtils {
 			} catch (SQLException e) {
 				e.printStackTrace();
 			}
-
 		}
 	}
 
@@ -70,7 +69,7 @@ public class DBUtils {
         //创建Properties类的对象，获取jdbc.properties
 		Properties prop = new Properties();
 		//取到配置文件的内容
-		InputStream in = DBUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
+		InputStream in = MyDBUtils.class.getClassLoader().getResourceAsStream("jdbc.properties");
 		//把拿到的配置文件的内容，放到Properties类的对象prop
 		prop.load(in);
 		//通过prop对象的getProperties方法拿到具体的值
@@ -112,7 +111,7 @@ public class DBUtils {
 		PreparedStatement ps = null;
 		int count = 0;
 		try {
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			ps = conn.prepareStatement(sql);
 
 			for (int i=0;i<args.length;i++){
@@ -173,7 +172,7 @@ public class DBUtils {
 
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//写sql语句
 			//String sql = "select id,username,`password`,phone_no,address,reg_date from users where id="+userid;
 			//执行sql,获取statement对象
@@ -195,7 +194,7 @@ public class DBUtils {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 		return user;
 	}
@@ -214,7 +213,7 @@ public class DBUtils {
 
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取PreparedStatement
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
@@ -234,7 +233,6 @@ public class DBUtils {
 				for (int i=1;i<=columnCount;i++){
 					String key = rsmd.getColumnLabel(i);
 					Object val = rs.getObject(key);
-
 					map.put(key, val);
 				}
 				//把取出的值封装到entity
@@ -250,7 +248,7 @@ public class DBUtils {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 
 		return entity;

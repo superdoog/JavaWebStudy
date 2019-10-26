@@ -3,7 +3,8 @@
 <%@ page import="java.util.List" %>
 <%@ page import="java.util.Arrays" %>
 <%@ page import="java.sql.Connection" %>
-<%@ page import="cn.lv.jdbc.DBUtils" %><%--
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
+<%--
   Created by IntelliJ IDEA.
   User: lvsihao
   Date: 2019-10-22
@@ -43,7 +44,7 @@
 //        int id = baseDao.insertReturnId(sql);
 //        out.print(id);
 
-        Connection conn = DBUtils.getConnection();
+        Connection conn = MyDBUtils.getConnection();
         conn.setAutoCommit(false);//开启事务处理
         out.println(conn.getTransactionIsolation());
         String sql = "update `users` set `username`=? where id=?";

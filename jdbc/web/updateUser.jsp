@@ -1,7 +1,8 @@
 
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.Connection" %>
-<%@ page import="java.sql.Statement" %><%--
+<%@ page import="java.sql.Statement" %>
+<%--
   Created by IntelliJ IDEA.
   User: lvsihao
   Date: 2019-10-10
@@ -26,7 +27,7 @@
     String sql = "UPDATE users set username = '"+username+"',`password` = '"+password+"'," +
             "phone_no = '"+phoneNo+"',address = '"+address+"' WHERE id = 8";
 
-    int count = DBUtils.IUD(sql);
+    int count = MyDBUtils.IUD(sql);
 
     if (count > 0){
         out.println("修改成功");

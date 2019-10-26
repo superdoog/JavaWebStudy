@@ -1,4 +1,4 @@
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.Statement" %><%--
@@ -24,7 +24,7 @@
 
       try {
         //获取数据库连接
-        conn = DBUtils.getConnection();
+        conn = MyDBUtils.getConnection();
         String sql = "select id,username,`password`,phone_no,address,reg_date from users";
         //获取statement对象
         statement = conn.createStatement();
@@ -45,7 +45,7 @@
       }catch (Exception e){
         e.printStackTrace();
       }finally {
-        DBUtils.close(conn,statement,rs);
+        MyDBUtils.close(conn,statement,rs);
       }
     %>
 

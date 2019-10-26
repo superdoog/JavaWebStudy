@@ -1,4 +1,4 @@
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
@@ -8,7 +8,7 @@
   <body>
 
     <%
-      Connection conn = DBUtils.getConnection();
+      Connection conn = MyDBUtils.getConnection();
 
     %>
 

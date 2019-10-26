@@ -1,9 +1,9 @@
 package cn.lv.dao;
 
-import cn.lv.jdbc.DBUtils;
+import cn.lv.jdbc.MyDBUtils;
 
 import org.apache.commons.beanutils.BeanUtils;
-import java.lang.reflect.Field;
+
 import java.lang.reflect.InvocationTargetException;
 import java.sql.*;
 import java.util.ArrayList;
@@ -25,7 +25,8 @@ public class BaseDao {
 
 
 	private <T> T getEntity(ResultSet rs, Class<T> clazz) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException, SQLException {
-		T entity = (T) clazz.getDeclaredConstructor().newInstance();//通过反射获取到对象
+		//通过反射获取到对象
+		T entity = (T) clazz.getDeclaredConstructor().newInstance();
 		ResultSetMetaData rsmd = rs.getMetaData();
 		int columnCount = rsmd.getColumnCount();
 		//把结果集中的值取出来放入
@@ -52,7 +53,7 @@ public class BaseDao {
 		PreparedStatement ps = null;
 		int count = 0;
 		try {
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
 			insteadHolder(ps, args);
@@ -60,7 +61,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn,ps,null);
+			MyDBUtils.close(conn,ps,null);
 		}
 		return count;
 	}
@@ -82,7 +83,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(null,ps,null);
+			MyDBUtils.close(null,ps,null);
 		}
 		return count;
 	}
@@ -100,7 +101,7 @@ public class BaseDao {
 		ResultSet rs = null;
 		int id = 0;
 		try {
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
 			//替换ps中的?占位符
 			insteadHolder(ps, args);
@@ -112,7 +113,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn,ps,null);
+			MyDBUtils.close(conn,ps,null);
 		}
 
 		return id;
@@ -133,7 +134,7 @@ public class BaseDao {
 
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取PreparedStatement
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
@@ -146,7 +147,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 
 		return entity;
@@ -162,7 +163,7 @@ public class BaseDao {
 
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取PreparedStatement
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
@@ -176,7 +177,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 		return list;
 	}
@@ -188,7 +189,7 @@ public class BaseDao {
 		ResultSet rs = null;
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取PreparedStatement
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
@@ -200,7 +201,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 		return null;
 	}
@@ -217,7 +218,7 @@ public class BaseDao {
 		ResultSet rs = null;
 		try {
 			//连接数据库
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取PreparedStatement
 			ps = conn.prepareStatement(sql);
 			//替换ps中的?占位符
@@ -229,7 +230,7 @@ public class BaseDao {
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {
-			DBUtils.close(conn, ps, rs);
+			MyDBUtils.close(conn, ps, rs);
 		}
 		return null;
 	}

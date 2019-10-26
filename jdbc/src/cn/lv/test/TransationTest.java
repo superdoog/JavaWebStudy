@@ -1,7 +1,7 @@
 package cn.lv.test;
 
 import cn.lv.dao.BaseDao;
-import cn.lv.jdbc.DBUtils;
+import cn.lv.jdbc.MyDBUtils;
 
 import java.sql.Connection;
 
@@ -9,7 +9,7 @@ public class TransationTest {
 	public static void main(String[] args) throws Exception {
 		BaseDao baseDao = new BaseDao();
 		// 同一个connection才能事务处理
-		Connection conn = DBUtils.getConnection();
+		Connection conn = MyDBUtils.getConnection();
 		 	try {
 
 			//开始事物
@@ -32,7 +32,7 @@ public class TransationTest {
 			//回滚
 			conn.rollback();
 		}finally {
-			DBUtils.close(conn,null,null);
+			MyDBUtils.close(conn,null,null);
 		}
 
 	}

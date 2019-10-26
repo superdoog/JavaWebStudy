@@ -1,5 +1,5 @@
 <%@ page import="java.sql.Connection" %>
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.util.Date" %>
 <%@ page import="cn.lv.model.User" %>
@@ -28,7 +28,7 @@
 
         String sql = "INSERT INTO users(`username`,`password`,`phone_no`,`address`,`reg_date`)values(?,?,?,?,?)";
 
-        int count = DBUtils.IUD(sql,u.getUserName(),u.getPassword(),
+        int count = MyDBUtils.IUD(sql,u.getUserName(),u.getPassword(),
                 u.getPhoneNo(),u.getAddress(),new java.sql.Date(u.getRegDate().getTime()));
 
         if (count > 0){

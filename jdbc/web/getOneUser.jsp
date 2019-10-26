@@ -1,5 +1,5 @@
 <%@ page import="java.sql.Connection" %>
-<%@ page import="cn.lv.jdbc.DBUtils" %>
+<%@ page import="cn.lv.jdbc.MyDBUtils" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.ResultSet" %>
 <%@ page import="cn.lv.model.User" %>
@@ -22,8 +22,8 @@
 //            //写sql语句
 //            String sql = "select id id,username userName,password password from users where id=?";
 //            //调用方法
-//            //User user = DBUtils.getOneUser(sql, userid);
-//            User user = DBUtils.getOneData(User.class, sql, userid);
+//            //User user = MyDBUtils.getOneUser(sql, userid);
+//            User user = MyDBUtils.getOneData(User.class, sql, userid);
 //            if (user != null){
 //            	out.println(user);
 //            }else {

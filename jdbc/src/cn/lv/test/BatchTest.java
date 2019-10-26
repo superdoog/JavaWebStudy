@@ -1,6 +1,6 @@
 package cn.lv.test;
 
-import cn.lv.jdbc.DBUtils;
+import cn.lv.jdbc.MyDBUtils;
 import org.junit.Test;
 
 import java.sql.Connection;
@@ -20,11 +20,11 @@ public class BatchTest {
 		String sql = null;
 		try {
 			//获取连接
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 			//获取statement对象
 			stat = conn.createStatement();
 			//开启事物
-			//DBUtils.startTransaction(conn);
+			//MyDBUtils.startTransaction(conn);
 			long start = System.currentTimeMillis();
 			//写sql 运行
 			for (int i=0;i<100000;i++){
@@ -34,15 +34,15 @@ public class BatchTest {
 			}
 			long end = System.currentTimeMillis();
 			//提交事物
-			//DBUtils.commitTransaction(conn);
+			//MyDBUtils.commitTransaction(conn);
 			System.out.println("statement插入数据耗时："+(end-start)+"ms");
 
 		}catch (Exception e){
 			e.printStackTrace();
 			//出现异常 回滚事物
-			//DBUtils.rollbackTransaction(conn);
+			//MyDBUtils.rollbackTransaction(conn);
 		}finally {
-			DBUtils.close(conn,stat,null);
+			MyDBUtils.close(conn,stat,null);
 		}
 	}
 
@@ -56,10 +56,10 @@ public class BatchTest {
 		String sql = null;
 		try {
 			//获取连接
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 
 			//开启事物
-			DBUtils.startTransaction(conn);
+			MyDBUtils.startTransaction(conn);
 			long start = System.currentTimeMillis();
 			//写sql 运行
 			for (int i=0;i<100000;i++){
@@ -71,15 +71,15 @@ public class BatchTest {
 			}
 			long end = System.currentTimeMillis();
 			//提交事物
-			DBUtils.commitTransaction(conn);
+			MyDBUtils.commitTransaction(conn);
 			System.out.println("PreparedStatement插入数据耗时："+(end-start)+"ms");
 
 		}catch (Exception e){
 			e.printStackTrace();
 			//出现异常 回滚事物
-			DBUtils.rollbackTransaction(conn);
+			MyDBUtils.rollbackTransaction(conn);
 		}finally {
-			DBUtils.close(conn,ps,null);
+			MyDBUtils.close(conn,ps,null);
 		}
 	}
 
@@ -93,10 +93,10 @@ public class BatchTest {
 		String sql = null;
 		try {
 			//获取连接
-			conn = DBUtils.getConnection();
+			conn = MyDBUtils.getConnection();
 
 			//开启事物
-			DBUtils.startTransaction(conn);
+			MyDBUtils.startTransaction(conn);
 			long start = System.currentTimeMillis();
 			//写sql 运行
 			sql = "insert into `student`(`name`,`age_id`)values(?,?);";
@@ -121,15 +121,15 @@ public class BatchTest {
 			}
 			long end = System.currentTimeMillis();
 			//提交事物
-			DBUtils.commitTransaction(conn);
+			MyDBUtils.commitTransaction(conn);
 			System.out.println("PreparedStatement batch 插入数据耗时："+(end-start)+"ms");
 
 		}catch (Exception e){
 			e.printStackTrace();
 			//出现异常 回滚事物
-			DBUtils.rollbackTransaction(conn);
+			MyDBUtils.rollbackTransaction(conn);
 		}finally {
-			DBUtils.close(conn,ps,null);
+			MyDBUtils.close(conn,ps,null);
 		}
 	}
 }

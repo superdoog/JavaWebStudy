@@ -1,12 +1,12 @@
 package cn.lv.test;
 
-import cn.lv.jdbc.DBUtils;
+import cn.lv.jdbc.MyDBUtils;
 
 import java.sql.*;
 
 public class DatabaseMataDataTest {
 	public static void main(String[] args) throws Exception {
-		Connection connection = DBUtils.getConnection();
+		Connection connection = MyDBUtils.getConnection();
 		//获取数据库元数据对象
 		DatabaseMetaData dmd = connection.getMetaData();
 		System.out.println(dmd.getURL());
