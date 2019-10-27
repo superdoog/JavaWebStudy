@@ -12,31 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c737ab17-f745-4d1c-9e1f-faae1463141c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lv/test/DBUtilsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/cn/lv/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc/cn/lv/dao/BaseDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/cn/lv/jdbc/DBUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/BatchTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/BatchTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/DatabaseMataDataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/DatabaseMataDataTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/TransationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/jdbc/cn/lv/test/TransationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/jdbc/cn/lv/test/BatchTestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/jdbc/cn/lv/test/BatchTestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/dao/BaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/dao/BaseDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/jdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/jdbc/MyDBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/test/BatchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/test/BatchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/test/DatabaseMataDataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/test/DatabaseMataDataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/test/TransationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/test/TransationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/cn/lv/test/BatchTestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/cn/lv/test/BatchTestTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/baseDaoTest.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/baseDaoTest.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/deleteUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/deleteUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/getOneUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/getOneUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/insertUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/insertUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/updateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/updateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/userList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/userList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,17 +28,7 @@
     <favorites_list name="jdbc01" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -182,13 +148,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lv" type="462c0819:PsiDirectoryNode" />
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lv" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jdbc01" type="b2602c69:ProjectViewProjectNode" />
@@ -406,7 +365,7 @@
       <workItem from="1571924313951" duration="267000" />
       <workItem from="1571924596266" duration="210000" />
       <workItem from="1571924822710" duration="10998000" />
-      <workItem from="1572071850560" duration="4668000" />
+      <workItem from="1572071850560" duration="5580000" />
     </task>
     <servers />
   </component>
@@ -443,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77961000" />
+    <option name="totallyTimeSpent" value="78873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,9 +415,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="23" width="720" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936306" weight="0.2979351" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.2979351" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.24926254" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -897,8 +855,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
         </state>
       </provider>
     </entry>

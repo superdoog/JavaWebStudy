@@ -7,18 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a19c83f-225c-4856-94d4-ce51b34badc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../jdbc/cn/lv/jdbc/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/test/cn/lv/test/BatchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/jdbc.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/test/TransationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/test/TransationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/TransationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/TransationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/src/cn/lv/test/TransationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/test/TransationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jdbc/src/cn/lv/test/CallableStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/test/CallableStatementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -153,6 +143,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
     <option name="height" value="877" />
@@ -163,6 +154,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +206,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -269,16 +260,17 @@
       <workItem from="1571275214112" duration="5016000" />
       <workItem from="1571919041519" duration="582000" />
       <workItem from="1571920203016" duration="600000" />
+      <workItem from="1572188008742" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22165000" />
+    <option name="totallyTimeSpent" value="22171000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="720" height="877" extended-state="0" />
+    <frame x="720" y="23" width="720" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.23303835" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.23893805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
