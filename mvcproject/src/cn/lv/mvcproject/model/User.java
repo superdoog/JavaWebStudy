@@ -1,4 +1,4 @@
-package cn.lv.mvcproject.dao;
+package cn.lv.mvcproject.model;
 
 import java.util.Date;
 
