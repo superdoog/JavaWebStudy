@@ -7,10 +7,8 @@ import org.junit.jupiter.api.Test;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class UserDaoimplTest {
-	UserDao userDao = new UserDaoimpl();
+	UserDao userDao = new UserDaoImpl();
 
 	@Test
 	void get() throws SQLException {

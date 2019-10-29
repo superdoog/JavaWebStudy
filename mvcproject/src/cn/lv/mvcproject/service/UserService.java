@@ -1,4 +1,4 @@
-package cn.lv.mvcproject.dao;
+package cn.lv.mvcproject.service;
 
 import cn.lv.mvcproject.model.User;
 
@@ -6,11 +6,9 @@ import java.sql.Connection;
 import java.util.List;
 
 /**
- * 定义有关users数据表有关的操作方法
  * @author lv
  */
-public interface UserDao {
-
+public interface UserService {
 	/**
 	 * 插入一条数据
 	 * @param user
@@ -44,10 +42,9 @@ public interface UserDao {
 	 * 根据用户编号获取一条用户数据，封装成User的一个对象
 	 * 支持事务
 	 * @param id
-	 * @param conn
 	 * @return
 	 */
-	public User get(Connection conn, int id);
+	public User getTransaction(int id);
 
 
 	/**
@@ -62,6 +59,4 @@ public interface UserDao {
 	 * @return
 	 */
 	public int getCountByName(String username);
-
-
 }

@@ -47,5 +47,20 @@ public class JdbcUtils {
 		}
 	}
 
+	/**
+	 * 回滚事务
+	 * @param conn
+	 */
+	public static void rollbackTransaction(Connection conn){
+		if (null != conn){
+			try {
+				conn.rollback();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+
+	}
+
 
 }

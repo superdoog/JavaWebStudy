@@ -4,21 +4,36 @@ import java.util.Date;
 
 /**
  * 用户类
+ * @author lv
  */
 
 public class User {
 
-	//用户编号
+
+	/**
+	 * 用户编号
+	 */
 	private int id;
-	//用户名称
+	/**
+	 * 用户名称
+	 */
 	private String username;
-	//用户密码
+
+	/**
+	 * 用户密码
+	 */
 	private String pasword;
-	//用户电话
+	/**
+	 * 用户电话
+	 */
 	private String phoneNo;
-	//用户地址
+	/**
+	 * 用户地址
+	 */
 	private String address;
-	//用户注册时间
+	/**
+	 * 用户注册时间
+	 */
 	private Date regDate;
 
 	public User() {
