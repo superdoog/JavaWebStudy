@@ -8,6 +8,9 @@ import cn.lv.mvcproject.utils.JdbcUtils;
 import java.sql.Connection;
 import java.util.List;
 
+/**
+ * @author lv
+ */
 public class UserServiceImpl implements UserService {
 
 	UserDao userDao = FactoryDao.getUserDao();
@@ -59,7 +62,13 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public int getCountByName(String username) {
+	public long getCountByName(String username) {
 		return userDao.getCountByName(username);
+	}
+
+	@Override
+	public List<User> query(String username, String address, String phoneNo) {
+
+		return userDao.query(username, address, phoneNo);
 	}
 }

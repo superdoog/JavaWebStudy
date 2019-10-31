@@ -46,8 +46,24 @@ public class UserDaoImpl extends BaseDao<User> implements UserDao {
 	}
 
 	@Override
-	public int getCountByName(String username) {
+	public long getCountByName(String username) {
 		String sql = "select count(`id`) from `user` where `username`=?";
-		return (int) super.getValue(sql,username);
+		return (long) super.getValue(sql,username);
+	}
+
+	@Override
+	public List<User> query(String username, String address, String phoneNo) {
+		String sql = "select `id`,`username`,`pasword`,`phone_no` phoneNo,`address`,`reg_date` regDate from `users` where 1=1";
+		if (username!=null && !"".equals(username)){
+			sql = sql + " and username like '%"+username+"%'";
+		}
+		if (address!=null && !"".equals(address)){
+			sql = sql + " and address like '%"+address+"%'";
+		}
+		if (phoneNo!=null && !"".equals(phoneNo)){
+			sql = sql + " and phone_no like '%"+phoneNo+"%'";
+		}
+		System.out.println(sql);
+		return (List<User>) super.getList(sql);
 	}
 }

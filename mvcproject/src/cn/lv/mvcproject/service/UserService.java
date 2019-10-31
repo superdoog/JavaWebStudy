@@ -58,5 +58,14 @@ public interface UserService {
 	 * @param username
 	 * @return
 	 */
-	public int getCountByName(String username);
+	public long getCountByName(String username);
+
+	/**
+	 * 用户模糊查询
+	 * @param username
+	 * @param address
+	 * @param phoneNo
+	 * @return
+	 */
+	public List<User> query(String username, String address, String phoneNo);
 }
