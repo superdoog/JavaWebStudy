@@ -2,7 +2,6 @@ package cn.lv.mvcproject.service;
 
 import cn.lv.mvcproject.model.User;
 
-import java.sql.Connection;
 import java.util.List;
 
 /**

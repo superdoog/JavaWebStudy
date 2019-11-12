@@ -9,7 +9,6 @@ import org.apache.commons.dbutils.handlers.ScalarHandler;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.sql.Connection;
-import java.util.ArrayList;
 import java.util.List;
 
 /**

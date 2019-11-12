@@ -62,8 +62,12 @@ public class UserController extends HttpServlet {
 		address = address.replaceAll("`~!@#$%^&*()+=|\\{\\}':;',\\\\[\\\\].<>/?~！@#￥%……&*（）——+|\\{\\}【】‘；：”“’。，、？]","");
 		phoneNo = phoneNo.replaceAll("`~!@#$%^&*()+=|\\{\\}':;',\\\\[\\\\].<>/?~！@#￥%……&*（）——+|\\{\\}【】‘；：”“’。，、？]","");
 
-		List<User> list = userService.query(username,address,phoneNo);
+		List<User> list = userService.query(username, address, phoneNo);
+		//把结果集放到了req的属性空间
 		System.out.println(list);
+		req.setAttribute("userList",list);
+		//把整个req,resp注入到jsp页面
+		req.getRequestDispatcher("/index.jsp").forward(req,resp);
 	}
 
 	private void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
