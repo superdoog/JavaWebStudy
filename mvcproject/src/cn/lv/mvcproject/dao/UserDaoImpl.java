@@ -12,7 +12,7 @@ public class UserDaoImpl extends BaseDao<User> implements UserDao {
 	@Override
 	public int save(User user) {
 		String sql = "insert into `users`(`username`,`pasword`,`phone_no`,`address`,`reg_date`)value(?,?,?,?,?)";
-		return super.update(sql,user.getUsername(),user.getPasword(),user.getPasword(),user.getPhoneNo(),user.getAddress(),user.getRegDate());
+		return super.update(sql,user.getUsername(),user.getPasword(),user.getPhoneNo(),user.getAddress(),user.getRegDate());
 	}
 
 	@Override
@@ -47,7 +47,7 @@ public class UserDaoImpl extends BaseDao<User> implements UserDao {
 
 	@Override
 	public long getCountByName(String username) {
-		String sql = "select count(`id`) from `user` where `username`=?";
+		String sql = "select count(`id`) from `users` where `username`=?";
 		return (long) super.getValue(sql,username);
 	}
 

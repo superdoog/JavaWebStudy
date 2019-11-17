@@ -7,15 +7,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a78b068-2694-4f18-8453-2d7652cc3f0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../jdbc/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/WEB-INF/classes/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/getOneUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/artifacts/jdbc_war_exploded/getOneUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/jdbc/DBUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/ReflectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/out/production/jdbc/cn/lv/test/ReflectionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/src/cn/lv/jdbc/DBUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jdbc/web/getOneUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../jdbc/web/getOneUser.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcproject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcproject/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcproject/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcproject/out/artifacts/mvcproject_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcproject/out/artifacts/mvcproject_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcproject/out/production/mvcproject/META-INF/mvcproject.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mvcproject/out/production/mvcproject/cn/lv/mvcproject/dao/BaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcproject/out/production/mvcproject/cn/lv/mvcproject/dao/BaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/artifacts/test01_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01/.idea/artifacts/test01_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/classes/cn/lv/test01/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/classes/cn/lv/test01/MyGenericServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/classes/cn/lv/test01/MyHttpServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/classes/cn/lv/test01/Servlet01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/classes/cn/lv/test01/Servlet1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/annotations-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/catalina-ant.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/catalina-ha.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/catalina-storeconfig.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/catalina-tribes.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/catalina.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/ecj-4.6.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/el-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/jasper-el.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/jasper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/jaspic-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/jsp-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/servlet-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-coyote.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-dbcp.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-de.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-es.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-fr.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-ja.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-ko.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-ru.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-i18n-zh-CN.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-jdbc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-jni.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-util-scan.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-util.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/tomcat-websocket.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/lib/websocket-api.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/index2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/index3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/out/artifacts/test01_war_exploded/login.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +95,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cn/lv/mywebproject/MyFirstServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-6">
+            <state relative-caret-position="15">
               <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
@@ -120,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -159,6 +196,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,17 +281,17 @@
       <updated>1569291615870</updated>
       <workItem from="1569291617357" duration="6322000" />
       <workItem from="1571275182465" duration="18000" />
+      <workItem from="1573815330520" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6340000" />
+    <option name="totallyTimeSpent" value="6345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="720" y="23" width="720" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2581121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26548672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24926254" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,6 +300,7 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.32890856" />
       <window_info id="Learn" order="7" />
       <window_info id="Web" order="8" side_tool="true" weight="0.32890856" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
@@ -330,7 +369,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lv/mywebproject/MyFirstServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="15">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>

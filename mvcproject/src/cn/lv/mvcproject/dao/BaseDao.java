@@ -104,12 +104,12 @@ public class BaseDao<T> {
 	 * @param args
 	 * @return
 	 */
-	public int update(String sql, Object...args){
+	public int update(String sql, Object... args){
 		Connection conn = null;
 		int rows = 0;
 		try {
 			conn = JdbcUtils.getConnection();
-			rows = queryRunner.update(sql, args);
+			rows = queryRunner.update(conn, sql, args);
 		}catch (Exception e){
 			e.printStackTrace();
 		}finally {

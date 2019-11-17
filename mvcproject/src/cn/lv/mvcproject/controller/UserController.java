@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.lang.reflect.Method;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -17,7 +18,7 @@ import java.util.List;
  */
 public class UserController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	UserService userService = FactoryService.getUserService();
+	private UserService userService = FactoryService.getUserService();
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -42,7 +43,29 @@ public class UserController extends HttpServlet {
 
 	}
 
-	private void add(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+	private void add(HttpServletRequest req, HttpServletResponse resp) throws IOException, ServletException {
+		User user = new User();
+		user.setUsername(req.getParameter("username"));
+		String name = user.getUsername();
+		long rows = userService.getCountByName(name);
+		if (rows>0){
+			req.setAttribute("note",name+",该名字已被占用，请换一个名字！");
+			req.getRequestDispatcher("/add.jsp").forward(req,resp);
+			return;
+		}
+
+
+		user.setPasword(req.getParameter("pasword"));
+		user.setAddress(req.getParameter("address"));
+		user.setPhoneNo(req.getParameter("phoneNo"));
+		user.setRegDate(new Date());
+
+		int row = userService.save(user);
+		if (row>0){
+			resp.sendRedirect(req.getContextPath()+"/index.jsp");
+		}else {
+			resp.sendRedirect(req.getContextPath()+"/error.jsp");
+		}
 
 	}
 
@@ -71,10 +94,47 @@ public class UserController extends HttpServlet {
 	}
 
 	private void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
-
+		int id = Integer.parseInt(req.getParameter("id"));
+		int rows = userService.deleteUserById(id);
+		if (rows>0){
+			resp.sendRedirect(req.getContextPath()+"/index.jsp");
+		}else {
+			resp.sendRedirect(req.getContextPath()+"/error.jsp");
+		}
 	}
 
 	private void update(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		int id = Integer.parseInt(req.getParameter("id"));
+		User user = userService.get(id);
+		req.setAttribute("user",user);
+		req.getRequestDispatcher("/update.jsp").forward(req,resp);
+	}
 
+	private void updatedo(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
+		int id = Integer.parseInt(req.getParameter("id"));
+		User yUser = userService.get(id);
+
+		String yUsername = yUser.getUsername();
+		String xUsername = req.getParameter("username");
+
+		long count = userService.getCountByName(xUsername);
+
+		if (!yUsername.equals(xUsername)&&count>0){
+			req.setAttribute("note",xUsername+",该名字已被占用，请换一个名字！");
+			req.getRequestDispatcher("/update.udo?id="+id).forward(req,resp);
+			return;
+		}
+
+		yUser.setUsername(xUsername);
+		yUser.setPasword(req.getParameter("pasword"));
+		yUser.setAddress(req.getParameter("address"));
+		yUser.setPhoneNo(req.getParameter("phoneNo"));
+
+		int rows = userService.updateUserById(yUser);
+		if (rows>0){
+			resp.sendRedirect(req.getContextPath()+"/index.jsp");
+		}else {
+			resp.sendRedirect(req.getContextPath()+"/error.jsp");
+		}
 	}
 }

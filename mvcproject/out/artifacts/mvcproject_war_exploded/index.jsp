@@ -27,13 +27,12 @@
 
      <tr>
         <td colspan="2" style="text-align: center"><input type="submit" value="查询用户">
-        <a href="<%=request.getContextPath()%>/add.udo"></a>
         </td>
      </tr>
 
     <tr>
         <td colspan="2" style="text-align: center">
-            <a href="<%=request.getContextPath()%>/add.udo">注册新用户</a>
+            <a href="<%=request.getContextPath()%>/add.jsp">注册新用户</a>
         </td>
     </tr>
     </table>
@@ -64,7 +63,7 @@
         <td><%=user.getPhoneNo()%></td>
         <td><%=user.getAddress()%></td>
         <td><%=user.getRegDate()%></td>
-          <td><a href="<%=request.getContextPath()%>/update.udo?id=<%=user.getId()%>">编辑</a> | <a href="<%=request.getContextPath()%>/delete.udo<%=user.getId()%>">删除</a></td>
+          <td><a href="<%=request.getContextPath()%>/update.udo?id=<%=user.getId()%>">编辑</a> | <a href="<%=request.getContextPath()%>/delete.udo?id=<%=user.getId()%>">删除</a></td>
         </tr>
       <%
                 }
