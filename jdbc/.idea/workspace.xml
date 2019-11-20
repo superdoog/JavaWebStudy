@@ -12,7 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c737ab17-f745-4d1c-9e1f-faae1463141c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../mvcproject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mvcproject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/test/CallableStatementTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +28,7 @@
     <favorites_list name="jdbc01" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/jdbc/MyDBUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -123,7 +110,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
@@ -136,6 +123,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,13 +147,6 @@
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lv" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jdbc01" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lv" type="462c0819:PsiDirectoryNode" />
               <item name="jdbc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,7 +158,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,11 +329,11 @@
       <item itemvalue="JUnit.BatchTestTest (1)" />
       <item itemvalue="JUnit.C3P0Test.c3p0Test" />
       <item itemvalue="JUnit.C3P0Test.c3p0XmlTest" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
+      <item itemvalue="Tomcat Server.deleteUser.jsp" />
       <item itemvalue="JUnit.DBUtilsTest.dbutest1" />
       <item itemvalue="JUnit.DBUtilsTest.dbuTest2" />
       <item itemvalue="JUnit.DBUtilsTest.dbuTest3" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.46" />
-      <item itemvalue="Tomcat Server.deleteUser.jsp" />
     </list>
     <recent_temporary>
       <list>
@@ -386,7 +366,6 @@
       <workItem from="1571924596266" duration="210000" />
       <workItem from="1571924822710" duration="10998000" />
       <workItem from="1572071850560" duration="5580000" />
-      <workItem from="1574068699641" duration="28000" />
     </task>
     <servers />
   </component>
@@ -423,7 +402,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78901000" />
+    <option name="totallyTimeSpent" value="78873000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,10 +414,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="720" y="23" width="720" height="877" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.14878398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.2979351" />
       <window_info id="Structure" order="1" sideWeight="0.50063694" side_tool="true" weight="0.24926254" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,7 +507,13 @@
     <entry file="file://$PROJECT_DIR$/jdbc.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../mysql-connector-java-5.1.47/src/com/mysql/jdbc/Driver.java" />
+    <entry file="file://$PROJECT_DIR$/../../../mysql-connector-java-5.1.47/src/com/mysql/jdbc/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -839,6 +823,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/lv/jdbc/MyDBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="227" column="50" selection-start-line="227" selection-start-column="50" selection-end-line="227" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/lv/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
@@ -863,16 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/jdbc/MyDBUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

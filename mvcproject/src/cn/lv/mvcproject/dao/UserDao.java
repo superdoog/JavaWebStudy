@@ -16,21 +16,21 @@ public interface UserDao {
 	 * @param user
 	 * @return
 	 */
-	int save(User user);
+	public int save(User user);
 
 	/**
 	 * 根据用户id删除对应的用户数据
 	 * @param id
 	 * @return
 	 */
-	int deleteUserById(int id);
+	public int deleteUserById(int id);
 
 	/**
 	 * 根据用户id修改对应的用户数据
 	 * @param user
 	 * @return
 	 */
-	int updateUserById(User user);
+	public int updateUserById(User user);
 
 	/**
 	 * 根据用户编号获取一条用户数据，封装成User的一个对象
@@ -38,7 +38,7 @@ public interface UserDao {
 	 * @param id
 	 * @return
 	 */
-	User get(int id);
+	public User get(int id);
 
 	/**
 	 * 根据用户编号获取一条用户数据，封装成User的一个对象
@@ -47,21 +47,21 @@ public interface UserDao {
 	 * @param conn
 	 * @return
 	 */
-	User get(Connection conn, int id);
+	public User get(Connection conn, int id);
 
 
 	/**
 	 * 获取所有的用户数据
 	 * @return
 	 */
-	List<User> getListAll();
+	public List<User> getListAll();
 
 	/**
 	 * 查询指定用户名的用户有多少条
 	 * @param username
 	 * @return
 	 */
-	long getCountByName(String username);
+	public long getCountByName(String username);
 
 
 	/**
