@@ -71,4 +71,9 @@ public class UserServiceImpl implements UserService {
 
 		return userDao.query(username, address, phoneNo);
 	}
+
+	@Override
+	public User login(String username, String pasword) {
+		return userDao.getUserByUP(username,pasword);
+	}
 }

@@ -66,4 +66,10 @@ public class UserDaoImpl extends BaseDao<User> implements UserDao {
 		System.out.println(sql);
 		return (List<User>) super.getList(sql);
 	}
+
+	@Override
+	public User getUserByUP(String username, String pasword) {
+		String sql = "select `id`,`username`,`pasword` from `users` where username=? and pasword=?";
+		return super.get(sql,username,pasword);
+	}
 }

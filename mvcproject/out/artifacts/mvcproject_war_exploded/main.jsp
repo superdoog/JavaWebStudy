@@ -63,7 +63,7 @@
         <td><%=user.getPhoneNo()%></td>
         <td><%=user.getAddress()%></td>
         <td><%=user.getRegDate()%></td>
-          <td><a href="<%=request.getContextPath()%>/update.udo?id=<%=user.getId()%>">编辑</a> | <a href="<%=request.getContextPath()%>/delete.udo?id=<%=user.getId()%>">删除</a></td>
+        <td><a href="<%=request.getContextPath()%>/update.udo?id=<%=user.getId()%>">编辑</a> | <a href="<%=request.getContextPath()%>/delete.udo?id=<%=user.getId()%>">删除</a></td>
         </tr>
       <%
                 }

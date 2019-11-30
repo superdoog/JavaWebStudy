@@ -2,10 +2,11 @@
 <c3p0-config>
     <named-config name="mysql">
         <!--        连接mysql数据库的基本信息配置-->
-        <property name="driverClass">com.mysql.jdbc.Driver</property>
-        <property name="jdbcUrl">jdbc:mysql://localhost:3306/mvcproject?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull</property>
+        <property name="driverClass">com.mysql.cj.jdbc.Driver</property>
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/mvcproject?useUnicode=true&amp;useSSL=false&amp;serverTimezone=Hongkong&amp;characterEncoding=utf-8&amp;autoReconnect=true</property>
         <property name="user">root</property>
         <property name="password">123456</property>
+
 
         <!--若连接数不足时，向数据库申请的连接数量-->
         <property name="acquireIncrement">5</property>

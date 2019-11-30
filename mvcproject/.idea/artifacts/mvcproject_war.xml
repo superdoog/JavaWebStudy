@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvcproject:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/mvcproject_war</output-path>
+    <root id="archive" name="mvcproject_war.war">
+      <element id="artifact" artifact-name="mvcproject:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.11" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

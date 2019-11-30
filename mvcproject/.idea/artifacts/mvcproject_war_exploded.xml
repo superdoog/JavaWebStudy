@@ -2,7 +2,6 @@
   <artifact type="exploded-war" name="mvcproject:war exploded">
     <output-path>$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="mvcproject/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="mvcproject" />
@@ -10,9 +9,10 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="c3p0-0.9.5.2" />
           <element id="library" level="module" name="JUnit5.3" module-name="mvcproject" />
-          <element id="library" level="project" name="mysql-connector-java-5.1.47" />
+          <element id="library" level="project" name="commons-dbutils-1.7" />
         </element>
       </element>
+      <element id="javaee-facet-resources" facet="mvcproject/web/Web" />
     </root>
   </artifact>
 </component>
