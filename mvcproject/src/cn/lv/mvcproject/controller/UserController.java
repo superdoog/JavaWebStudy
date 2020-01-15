@@ -6,10 +6,8 @@ import cn.lv.mvcproject.service.UserService;
 import cn.lv.mvcproject.utils.CookieUtil;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.Cookie;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.*;
 import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.Date;
@@ -18,6 +16,7 @@ import java.util.List;
 /**
  * @author lv
  */
+@WebServlet("*.udo")
 public class UserController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private UserService userService = FactoryService.getUserService();
@@ -186,12 +185,12 @@ public class UserController extends HttpServlet {
 				switch (expiredays) {
 					case "7":
 						//cookie失效7天
-						CookieUtil.createCookie(username, req, resp, 7*24*60*60);
+						CookieUtil.createCookie(username, req, resp, 7 * 24 * 60 * 60);
 						break;
 
 					case "30":
 						//cookie失效30天
-						CookieUtil.createCookie(username, req, resp, 30*24*60*60);
+						CookieUtil.createCookie(username, req, resp, 30 * 24 * 60 * 60);
 						break;
 
 					case "100":
@@ -205,6 +204,7 @@ public class UserController extends HttpServlet {
 						break;
 				}
 
+				req.getSession().setAttribute("user", user.getUsername());
 				//登陆成功，跳转main.jsp
 				req.getRequestDispatcher("main.jsp").forward(req, resp);
 			} else {
@@ -213,6 +213,33 @@ public class UserController extends HttpServlet {
 			}
 		} else {
 			req.getRequestDispatcher("main.jsp").forward(req, resp);
+			req.getSession().setAttribute("user", username);
 		}
+	}
+
+	private void logout(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		//记录登陆状态cookies删除
+		Cookie[] cookies = req.getCookies();
+		if (cookies!=null || cookies.length>0){
+			for (Cookie cookie : cookies){
+				if (cookie.getName().equals("userKey")){
+					cookie.setMaxAge(0);
+					resp.addCookie(cookie);
+				}
+				if (cookie.getName().equals("ssid")){
+					cookie.setMaxAge(0);
+					resp.addCookie(cookie);
+				}
+			}
+		}
+
+		//记录登陆状态session删除
+		HttpSession session = req.getSession();
+		if (session !=null){
+			session.removeAttribute("user");
+		}
+
+		//退出登陆跳转
+		resp.sendRedirect(req.getContextPath() + "/login.jsp");
 	}
 }

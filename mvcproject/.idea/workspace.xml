@@ -5,44 +5,28 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="mvcproject:war exploded" />
+      <artifact name="mvcproject:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3efade5-9291-4089-9b3b-620246f1bdc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mvcproject_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mvcproject_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/mvcproject_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/sessiontest.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mvcproject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mvcproject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/META-INF/mvcproject.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war/mvcproject_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war/mvcproject_war.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/dao/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/utils/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/classes/cn/lv/mvcproject/utils/CookieUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mvcproject_war_exploded/main.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/dao/UserDaoimpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/dao/UserDaoimpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/service/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c3p0-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c3p0-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/utils/CookieUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mvcproject/cn/lv/mvcproject/utils/CookieUtil.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.48.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test01/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,54 +38,13 @@
   <component name="FavoritesManager">
     <favorites_list name="mvcproject" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#delete#0;class#UserController#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
         <option value="Interface" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -109,44 +52,15 @@
     <findStrings>
       <find>phoneeNo</find>
       <find>set</find>
+      <find>md5Digist</find>
     </findStrings>
     <replaceStrings>
       <replace>phoneNo</replace>
+      <replace>md5Digest</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/User.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/jdbcUtils.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/test/cn/lv/mvcproject/utils/JdbcUtilsTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/test/cn/lv/mvcproject/dao/UserDaoimplTest.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDaoimpl.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/JdbcUtils.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/FactoryDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/service/FactoryService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/error.jsp" />
-        <option value="$PROJECT_DIR$/src/test/test.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/update.jsp" />
-        <option value="$PROJECT_DIR$/web/add.jsp" />
-        <option value="$PROJECT_DIR$/src/c3p0-config.xml" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/model/User.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/BaseDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/main.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDaoImpl.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -155,100 +69,17 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
+  <component name="ProjectId" id="1Vq4rPzunbxTQB0BXKQGl1uWrzj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="720" />
-    <option name="height" value="877" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mvcproject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mvcproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
@@ -269,7 +100,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -285,18 +116,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.46">
     <configuration name="JdbcUtilsTest.getConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -364,18 +183,17 @@
       </method>
     </configuration>
     <configuration name="Tomcat 8.5.46" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.46" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mvcproject_war_exploded/" />
-      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/mvcproject/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="mvcproject:war exploded">
+        <artifact name="mvcproject:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/mvcproject_war_exploded" />
+            <option name="CONTEXT_PATH" value="/mvcproject" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mvcproject" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_mvcproject_2" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -383,7 +201,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="54110" />
+        <option name="DEBUG_PORT" value="51648" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -433,7 +251,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="mvcproject:war exploded" />
+          <artifact name="mvcproject:war" />
         </option>
       </method>
     </configuration>
@@ -455,6 +273,24 @@
   </component>
   <component name="SQLPlugin.ProjectConfiguration">
     <queries />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.1577794" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -501,7 +337,14 @@
       <workItem from="1574764218015" duration="16877000" />
       <workItem from="1574905342326" duration="241000" />
       <workItem from="1575015357740" duration="4348000" />
-      <workItem from="1575090511674" duration="5107000" />
+      <workItem from="1575090511674" duration="6960000" />
+      <workItem from="1576140884174" duration="7000" />
+      <workItem from="1577967495081" duration="42000" />
+      <workItem from="1577967586491" duration="770000" />
+      <workItem from="1577968411072" duration="1852000" />
+      <workItem from="1578815771580" duration="102000" />
+      <workItem from="1578972747637" duration="5050000" />
+      <workItem from="1579057760153" duration="1253000" />
     </task>
     <servers />
   </component>
@@ -537,586 +380,147 @@
       <configuration name="test.t" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96748000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.17095852" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50063694" side_tool="true" weight="0.25516224" />
-      <window_info id="Learn" order="6" weight="0.32897604" />
-      <window_info id="Web" order="7" sideWeight="0.50063694" side_tool="true" weight="0.25516224" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" x="21" y="226" width="1398" height="470" id="Run" order="2" visible="true" weight="0.119745225" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3299363" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" weight="0.3299363" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3299363" />
-      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.3299363" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3299363" />
-      <window_info anchor="bottom" id="SQL" order="18" weight="0.3299363" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" sideWeight="0.50063694" weight="0.25516224" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49936306" visible="true" weight="0.23156342" />
-      <window_info id="Designer" order="1" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50063694" side_tool="true" weight="0.25516224" />
-      <window_info id="Learn" order="6" weight="0.32897604" />
-      <window_info id="Web" order="7" sideWeight="0.50063694" side_tool="true" weight="0.25516224" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" x="21" y="226" width="1398" height="470" id="Run" order="2" visible="true" weight="0.17197452" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3299363" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3299363" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3299363" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="14" weight="0.3299363" />
-      <window_info anchor="bottom" id="Inspection Results" order="15" weight="0.3299363" />
-      <window_info anchor="bottom" id="Duplicates" order="16" weight="0.3299363" />
-      <window_info anchor="bottom" id="Messages" order="17" weight="0.3299363" />
-      <window_info anchor="bottom" id="SQL" order="18" weight="0.3299363" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" sideWeight="0.50063694" weight="0.25516224" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.3297568" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../test/java/cn/lv/mvcproject/utils/JdbcUtilsTest .java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/test/cn/lv/mvcproject/utils/JdbcUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/ParameterizedType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="64" column="35" selection-start-line="64" selection-start-column="35" selection-end-line="64" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar!/org/apache/commons/dbutils/handlers/ScalarHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/test/cn/lv/mvcproject/dao/UserDaoimplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Tomcat8.5/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-29">
-          <caret line="132" column="13" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/PoolBackedDataSourceBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-          <folding>
-            <element signature="e#2476#2477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mchange-commons-java-0.2.15.jar!/com/mchange/v2/log/MLog.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/C3P0PooledConnectionPoolManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="945" selection-start-line="945" selection-end-line="945" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/NewProxyConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="402" selection-start-line="402" selection-end-line="402" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar!/org/apache/commons/dbutils/DbUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/NewPooledConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="374" selection-start-line="374" selection-end-line="374" />
-          <folding>
-            <element signature="e#14872#14873#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar!/org/apache/commons/dbutils/AbstractQueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.5.2.jar!/com/mchange/v2/c3p0/impl/NewProxyPreparedStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="671" selection-start-line="671" selection-end-line="671" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/JDBC42PreparedStatement.class" />
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar!/org/apache/commons/dbutils/QueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.sql/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="75" column="11" selection-start-line="75" selection-start-column="11" selection-end-line="75" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.47.jar!/com/mysql/jdbc/PreparedStatement.class" />
-    <entry file="jar://$USER_HOME$/Tomcat8.5/lib/servlet-api.jar!/javax/servlet/http/HttpServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="2466" column="18" selection-start-line="2466" selection-start-column="18" selection-end-line="2466" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="551" column="18" selection-start-line="551" selection-start-column="18" selection-end-line="551" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Tomcat8.5/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-          <folding>
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#976#977#0" expanded="true" />
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1027#1028#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
-            <element signature="e#1094#1095#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1156#1157#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1425#1426#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1526#1527#0" expanded="true" />
-            <element signature="e#1547#1548#0" expanded="true" />
-            <element signature="e#1588#1589#0" expanded="true" />
-            <element signature="e#1617#1618#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" lean-forward="true" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="e#331#336#0" expanded="true" />
-            <element signature="e#359#364#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/utils/JdbcUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" selection-start-line="35" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/dao/FactoryDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#93#94#0" expanded="true" />
-            <element signature="e#124#125#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/service/FactoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="790">
-          <caret line="56" column="8" selection-start-line="56" selection-start-column="8" selection-end-line="56" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/update.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="92" selection-start-line="22" selection-start-column="92" selection-end-line="22" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="91" column="9" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="54" column="33" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/dao/UserDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="71" column="73" selection-start-line="71" selection-start-column="73" selection-end-line="71" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/service/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="75" column="19" lean-forward="true" selection-start-line="75" selection-start-column="19" selection-end-line="75" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="method#getTransaction#0;class#UserServiceImpl#0" />
-            <element signature="e#1203#1204#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1459#1460#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#delete#0;class#UserController#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/lv/mvcproject/utils/CookieUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="artifact" />
-              <type id="library" />
-              <type id="javaee-facet-resources" />
-              <type id="jpa-descriptors" />
-            </show-content>
-          </artifact-editor>
-          <last-edited>mvcproject:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (mvcproject)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web|mvcproject</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>mysql-connector-java-8.0.11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="127" key="#Notifications" timestamp="1578972803775">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="640" y="127" key="#Notifications/0.23.1440.877@0.23.1440.877" timestamp="1578972803775" />
+    <state x="320" y="127" key="#Plugins" timestamp="1579058501715">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="127" key="#Plugins/0.23.1440.877@0.23.1440.877" timestamp="1579058501715" />
+    <state x="255" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578988823892">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="255" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1578988823892" />
+    <state x="390" y="100" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1578988770960">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="390" y="100" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.23.1440.877@0.23.1440.877" timestamp="1578988770960" />
+    <state x="461" y="392" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1578987777238">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="461" y="392" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.23.1440.877@0.23.1440.877" timestamp="1578987777238" />
+    <state x="408" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1578815862305">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="408" y="196" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.23.1440.877@0.23.1440.877" timestamp="1578815862305" />
+    <state width="1152" height="171" key="GridCell.Tab.0.bottom" timestamp="1578997460046">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578997460046" />
+    <state width="1152" height="171" key="GridCell.Tab.0.center" timestamp="1578997460043">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1578997460043" />
+    <state width="1152" height="171" key="GridCell.Tab.0.left" timestamp="1578997460043">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1578997460043" />
+    <state width="1152" height="171" key="GridCell.Tab.0.right" timestamp="1578997460044">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1578997460044" />
+    <state width="1152" height="171" key="GridCell.Tab.1.bottom" timestamp="1578997460048">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578997460048" />
+    <state width="1152" height="171" key="GridCell.Tab.1.center" timestamp="1578997460047">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1578997460047" />
+    <state width="1152" height="171" key="GridCell.Tab.1.left" timestamp="1578997460047">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1578997460047" />
+    <state width="1152" height="171" key="GridCell.Tab.1.right" timestamp="1578997460048">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1578997460048" />
+    <state width="1152" height="171" key="GridCell.Tab.2.bottom" timestamp="1578997460050">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578997460050" />
+    <state width="1152" height="171" key="GridCell.Tab.2.center" timestamp="1578997460049">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1578997460049" />
+    <state width="1152" height="171" key="GridCell.Tab.2.left" timestamp="1578997460049">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1578997460049" />
+    <state width="1152" height="171" key="GridCell.Tab.2.right" timestamp="1578997460050">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1578997460050" />
+    <state width="1152" height="171" key="GridCell.Tab.3.bottom" timestamp="1578997460051">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1578997460051" />
+    <state width="1152" height="171" key="GridCell.Tab.3.center" timestamp="1578997460051">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1578997460051" />
+    <state width="1152" height="171" key="GridCell.Tab.3.left" timestamp="1578997460050">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1578997460050" />
+    <state width="1152" height="171" key="GridCell.Tab.3.right" timestamp="1578997460051">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1152" height="171" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1578997460051" />
+    <state x="273" y="42" key="SettingsEditor" timestamp="1578987881805">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="273" y="42" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1578987881805" />
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1579058300737">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="397" y="294" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1579058300737" />
+    <state x="0" y="23" width="1440" height="877" key="com.intellij.javaee.view.ServerArtifactsDialog" timestamp="1578988831923">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="0" y="23" width="1440" height="877" key="com.intellij.javaee.view.ServerArtifactsDialog/0.23.1440.877@0.23.1440.877" timestamp="1578988831923" />
+    <state x="745" y="211" key="run.anything.popup" timestamp="1578987375848">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="745" y="211" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1578987375848" />
+    <state x="385" y="213" key="search.everywhere.popup" timestamp="1579058194159">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1579058194159" />
   </component>
 </project>

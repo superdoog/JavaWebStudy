@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
 
-    <servlet>
-        <servlet-name>UserController</servlet-name>
-        <servlet-class>cn.lv.mvcproject.controller.UserController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>UserController</servlet-name>
-        <url-pattern>*.udo</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <servlet-name>UserController</servlet-name>-->
+<!--        <servlet-class>cn.lv.mvcproject.controller.UserController</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>UserController</servlet-name>-->
+<!--        <url-pattern>*.udo</url-pattern>-->
+<!--    </servlet-mapping>-->
 </web-app>
